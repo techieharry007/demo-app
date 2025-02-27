@@ -1,0 +1,70 @@
+# Node modules and dependency locks
+node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs and debugging files
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+debug.log*
+*.err
+
+# Build and output directories
+android/app/build/
+android/build/
+ios/Pods/
+ios/build/
+ios/*.xcworkspace/
+dist/
+build/
+out/
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Metro bundler cache and build files
+.expo/
+.expo-shared/
+.expo-go/
+*.expo/
+.cache/
+tmp/
+temp/
+
+# React Native specific
+*.keystore
+*.p8
+*.p12
+*.jks
+*.keychain
+
+# Xcode files
+ios/.DS_Store
+ios/xcuserdata/
+ios/*.xcodeproj/
+ios/*.xcworkspace/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots
+fastlane/test_output
+
+# Miscellaneous
+coverage/
+.nyc_output/
+.vscode/
+.idea/
+*.sw?
+.DS_Store
+Thumbs.db
+
+# Firebase and Google Services
+android/app/google-services.json
+ios/GoogleService-Info.plist
